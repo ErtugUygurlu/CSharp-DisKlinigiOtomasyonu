@@ -1,0 +1,17 @@
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\bin\Debug\disKlinigi.exe.config
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\bin\Debug\disKlinigi.exe
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\bin\Debug\disKlinigi.pdb
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\bin\Debug\Guna.UI2.dll
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\obj\Debug\disKlinigi.csproj.AssemblyReference.cache
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\obj\Debug\disKlinigi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\obj\Debug\disKlinigi.Anasayfa.resources
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\obj\Debug\disKlinigi.Hasta.resources
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\obj\Debug\disKlinigi.Properties.Resources.resources
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\obj\Debug\disKlinigi.Randevu.resources
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\obj\Debug\disKlinigi.Tedavi.resources
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\obj\Debug\disKlinigi.csproj.GenerateResource.cache
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\obj\Debug\disKlinigi.csproj.CoreCompileInputs.cache
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\obj\Debug\disKlinigi.csproj.CopyComplete
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\obj\Debug\disKlinigi.exe
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\obj\Debug\disKlinigi.pdb
+C:\Users\Win10\source\repos\windowsform\disKliniği\disKlinigi\obj\Debug\disKlinigi.Login.resources
