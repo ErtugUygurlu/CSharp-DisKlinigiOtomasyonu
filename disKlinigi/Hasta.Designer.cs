@@ -265,7 +265,7 @@
             this.label7.Size = new System.Drawing.Size(159, 25);
             this.label7.TabIndex = 4;
             this.label7.Text = "Doğum Tarihi:";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            //this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
@@ -276,7 +276,7 @@
             this.label8.Size = new System.Drawing.Size(104, 25);
             this.label8.TabIndex = 4;
             this.label8.Text = "Cinsiyet:";
-            this.label8.Click += new System.EventHandler(this.label7_Click);
+            //this.label8.Click += new System.EventHandler(this.label7_Click);
             // 
             // HCinsiyetCb
             // 
@@ -308,7 +308,7 @@
             this.label9.Size = new System.Drawing.Size(73, 25);
             this.label9.TabIndex = 4;
             this.label9.Text = "Alerji:";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // HAlerjiTb
             // 
@@ -477,7 +477,7 @@
             this.HastaDgv.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.Red;
             this.HastaDgv.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.HastaDgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.HastaDgv_CellClick);
-            this.HastaDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.HastaDgv_CellContentClick);
+            //this.HastaDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.HastaDgv_CellContentClick);
             // 
             // HDogTarih
             // 

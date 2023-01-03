@@ -24,12 +24,10 @@ namespace disKlinigi
                 MessageBox.Show("Lütfen Şifre Giriniz");
             }
             else if(LAdTb.Text == "ertu" && LSifreTb.Text == "123")
-            {           
-                
+            {                          
                     Anasayfa ana = new Anasayfa();
                     ana.Show();
-                    this.Show();
-                
+                    this.Show();               
             }
             else
             {

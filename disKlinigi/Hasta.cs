@@ -17,16 +17,6 @@ namespace disKlinigi
             InitializeComponent();
         }
 
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
             string query = "insert into HastaTbl values ('" + HAdSoyadTb.Text + "','" + HTelefonTb.Text + "','" + HAdresTb.Text + "','" + HDogTarih.Text + "','" + HCinsiyetCb.SelectedItem.ToString() + "','" + HAlerjiTb.Text + "')";
@@ -40,7 +30,6 @@ namespace disKlinigi
             }
             catch (Exception Ex)
             {
-
                 MessageBox.Show(Ex.Message);
             }
         }
@@ -73,20 +62,16 @@ namespace disKlinigi
             Reset();
         }
 
-        private void HastaDgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
         int key = 0;
         private void HastaDgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             HAdSoyadTb.Text = HastaDgv.SelectedRows[0].Cells[1].Value.ToString();
-            HTelefonTb.Text= HastaDgv.SelectedRows[0].Cells[2].Value.ToString();
-            HAdresTb.Text= HastaDgv.SelectedRows[0].Cells[3].Value.ToString();
+            HTelefonTb.Text = HastaDgv.SelectedRows[0].Cells[2].Value.ToString();
+            HAdresTb.Text = HastaDgv.SelectedRows[0].Cells[3].Value.ToString();
             HDogTarih.Text = HastaDgv.SelectedRows[0].Cells[4].Value.ToString();
-            HCinsiyetCb.SelectedItem= HastaDgv.SelectedRows[0].Cells[5].Value.ToString();
-            HAlerjiTb.Text= HastaDgv.SelectedRows[0].Cells[6].Value.ToString(); 
-            if(HAdSoyadTb.Text=="")
+            HCinsiyetCb.SelectedItem = HastaDgv.SelectedRows[0].Cells[5].Value.ToString();
+            HAlerjiTb.Text = HastaDgv.SelectedRows[0].Cells[6].Value.ToString();
+            if (HAdSoyadTb.Text == "")
             {
                 key = 0;
             }
@@ -100,7 +85,7 @@ namespace disKlinigi
         private void guna2GradientButton3_Click(object sender, EventArgs e)
         {
             Hastalar Hs = new Hastalar();
-            if(key==0)
+            if (key == 0)
             {
                 MessageBox.Show("Silinecek Hastayı Seçiniz");
             }
@@ -120,7 +105,6 @@ namespace disKlinigi
                     MessageBox.Show(Ex.Message);
                 }
             }
-            
         }
 
         private void guna2GradientButton2_Click(object sender, EventArgs e)
@@ -134,7 +118,7 @@ namespace disKlinigi
             {
                 try
                 {
-                    string query = "update HastaTbl set HAd='"+HAdSoyadTb.Text+"',HTelefon='"+HTelefonTb.Text+"',HAdres='"+HAdresTb.Text+"',HDTarih='"+HDogTarih.Text+"', HCinsiyet='"+HCinsiyetCb.SelectedItem.ToString()+"',HAlerji='"+HAlerjiTb.Text+"' where HId= " + key + ";";
+                    string query = "update HastaTbl set HAd='" + HAdSoyadTb.Text + "',HTelefon='" + HTelefonTb.Text + "',HAdres='" + HAdresTb.Text + "',HDTarih='" + HDogTarih.Text + "', HCinsiyet='" + HCinsiyetCb.SelectedItem.ToString() + "',HAlerji='" + HAlerjiTb.Text + "' where HId= " + key + ";";
                     Hs.HastaSil(query);
                     MessageBox.Show("Hasta Başarıyla Güncellendi");
                     uyeler();
@@ -142,7 +126,6 @@ namespace disKlinigi
                 }
                 catch (Exception Ex)
                 {
-
                     MessageBox.Show(Ex.Message);
                 }
             }

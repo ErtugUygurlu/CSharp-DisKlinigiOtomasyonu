@@ -61,7 +61,6 @@ namespace disKlinigi
             RTedaviCb.SelectedValue = "";
             RTarihCb.Text = "";
             RSaatCb.SelectedValue = "";
-
         }
 
         private void Randevu_Load(object sender, EventArgs e)
@@ -91,8 +90,6 @@ namespace disKlinigi
         }
         int key = 0;
 
-       
-
         private void guna2GradientButton2_Click(object sender, EventArgs e)
         {
 
@@ -105,7 +102,7 @@ namespace disKlinigi
             {
                 try
                 {
-                    string query = "Update RandevuTbl set Hasta='" + RandevuCb.SelectedValue.ToString() + "',Tedavi='" + RTedaviCb.SelectedValue.ToString() + "',RTarih='" + RTarihCb.Text + "',RSaat='"+RSaatCb.Text+"' where RId= " + key + ";";
+                    string query = "Update RandevuTbl set Hasta='" + RandevuCb.SelectedValue.ToString() + "',Tedavi='" + RTedaviCb.SelectedValue.ToString() + "',RTarih='" + RTarihCb.Text + "',RSaat='" + RSaatCb.Text + "' where RId= " + key + ";";
                     Hs.HastaSil(query);
                     MessageBox.Show("Randevu İşlemi Başarıyla Güncellendi");
                     uyeler();
@@ -137,11 +134,6 @@ namespace disKlinigi
             }
         }
 
-        private void RTarihTb_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2GradientButton3_Click(object sender, EventArgs e)
         {
             Hastalar Hs = new Hastalar();
@@ -161,7 +153,6 @@ namespace disKlinigi
                 }
                 catch (Exception Ex)
                 {
-
                     MessageBox.Show(Ex.Message);
                 }
             }
@@ -170,11 +161,6 @@ namespace disKlinigi
         private void label2_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -196,11 +182,6 @@ namespace disKlinigi
             Tedavi tv = new Tedavi();
             tv.Show();
             this.Hide();
-        }
-
-        private void guna2GradientButton7_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

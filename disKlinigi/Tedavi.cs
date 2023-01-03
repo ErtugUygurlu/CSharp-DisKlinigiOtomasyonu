@@ -30,7 +30,6 @@ namespace disKlinigi
             }
             catch (Exception Ex)
             {
-
                 MessageBox.Show(Ex.Message);
             }
         }
@@ -65,7 +64,6 @@ namespace disKlinigi
             TedaviAdTb.Text = "";
             TutarTb.Text = "";
             AciklamaTb.Text = "";
-            
         }
 
         void uyeler()
@@ -112,7 +110,7 @@ namespace disKlinigi
             TedaviAdTb.Text = TedaviDgv.SelectedRows[0].Cells[1].Value.ToString();
             TutarTb.Text = TedaviDgv.SelectedRows[0].Cells[2].Value.ToString();
             AciklamaTb.Text = TedaviDgv.SelectedRows[0].Cells[3].Value.ToString();
-            
+
             if (TedaviAdTb.Text == "")
             {
                 key = 0;

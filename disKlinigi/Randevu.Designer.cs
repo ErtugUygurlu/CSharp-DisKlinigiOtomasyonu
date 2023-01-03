@@ -75,7 +75,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1123, 77);
             this.panel1.TabIndex = 10;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            //this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // guna2GradientButton6
             // 
@@ -113,7 +113,7 @@
             this.guna2GradientButton7.Size = new System.Drawing.Size(217, 45);
             this.guna2GradientButton7.TabIndex = 4;
             this.guna2GradientButton7.Text = "Randevu";
-            this.guna2GradientButton7.Click += new System.EventHandler(this.guna2GradientButton7_Click);
+            //this.guna2GradientButton7.Click += new System.EventHandler(this.guna2GradientButton7_Click);
             // 
             // guna2GradientButton8
             // 
